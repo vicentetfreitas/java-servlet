@@ -1,8 +1,10 @@
 package br.com.alura.gerenciador.servlet;
 
 public class Empresa {
+	
 	private Integer id;
 	private String nome;
+	
 	public Integer getId() {
 		return id;
 	}

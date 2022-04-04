@@ -1,9 +1,3 @@
-<%
-String nomeEmpresa = (String)request.getAttribute("empresa");
-System.out.println(nomeEmpresa);
-
-%>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +7,7 @@ System.out.println(nomeEmpresa);
 <body>
 	<!-- Java Servlet Page - JSP -->
 	<h2>Empresa cadastrada com sucesso.</h2>
-	<h3><%out.println(nomeEmpresa);%></h3>
-	Empresa <strong><%= nomeEmpresa %></strong> cadastrada com sucesso
+	<h3>${ empresa }</h3>
+	Empresa <strong>${ empresa }</strong> cadastrada com sucesso
 </body>
 </html>

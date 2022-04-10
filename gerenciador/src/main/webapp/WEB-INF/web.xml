@@ -7,11 +7,10 @@
   
   <servlet>
   <servlet-name>Hello World</servlet-name>
-  <servlet-class>br.com.alura.gerenciador.servlet.HelloWorldServelet</servlet-class>
+  <servlet-class>br.com.alura.gerenciador.servlet.HelloWorldServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Hello World</servlet-name>
-  
   <url-pattern>/ola</url-pattern>
   </servlet-mapping>
 </web-app>

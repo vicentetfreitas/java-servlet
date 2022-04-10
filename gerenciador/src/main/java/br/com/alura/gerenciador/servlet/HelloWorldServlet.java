@@ -8,8 +8,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//@WebServlet(urlPatterns = "/oi")
-public class HelloWorldServelet extends HttpServlet {
+@WebServlet(urlPatterns = "/oi")
+public class HelloWorldServlet extends HttpServlet {
+	
+	public HelloWorldServlet(){
+		System.out.println("Criando Hello World Servlet");
+	}
+	
 	private static final long serialVersionUID = 1L;
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
